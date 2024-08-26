@@ -3,14 +3,14 @@ POST http://localhost:3000/cineapi/peliculas/ HTTP/1.1
 Content-Type: application/json
 
 {
-  "titulo": "The Shawshank Redemption",
-  "genero": "Drama",
-  "duracion": 142,
-  "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-  "horarios": [
-    "2024-03-10T18:00:00.000Z",
-    "2024-03-10T21:00:00.000Z",
-    "2024-03-11T15:00:00.000Z"
-  ]
+    "titulo": "The Shawshank Redemption",
+    "genero": "Drama",
+    "duracion": 142,
+    "sinopsis": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "horarios": [
+        "2024-03-10T18:00:00.000Z",
+        "2024-03-10T21:00:00.000Z",
+        "2024-03-11T15:00:00.000Z"
+    ]
 }
 

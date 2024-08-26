@@ -1,28 +1,40 @@
-const mongoose = require ('mongoose');
+const mongoose = require("mongoose");
 
 const peliculaSchema = mongoose.Schema({
-    titulo: {
+  sala_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Sala",
+    required: true,
+  },
+  nombre: {
+    type: String,
+    required: true,
+  },
+  genero: {
+    type: [String],
+    required: true,
+  },
+  duracion: {
+    type: Number, // Duración en minutos
+    required: true,
+  },
+  estado: {
+    type: String,
+    enum: ["cartelera", "proximamente", "no disponible"],
+    required: true,
+  },
+  cast: [
+    {
+      nombre: {
         type: String,
-        required: [true, 'El título es requerido'],
-        trim: true
-    },
-    genero: {
+        required: true,
+      },
+      personaje: {
         type: String,
-        required: [true, 'El género es requerido'],
-        trim: true
+        required: true,
+      },
     },
-    duracion: {
-        type: Number,
-        required: [true, 'La duración es requerida']
-    },
-    sinopsis: {
-        type: String,
-        required: [true, 'La sinopsis es requerida']
-    },
-    horarios: [{
-        type: Date,
-        required: [true, 'Al menos un horario es requerido']
-    }]
+  ],
 });
 
-module.exports = mongoose.model('Pelicula', peliculaSchema);
+module.exports = mongoose.model("Pelicula", peliculaSchema);
