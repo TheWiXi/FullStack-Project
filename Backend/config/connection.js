@@ -1,5 +1,5 @@
-const mongoose = require('mongoose');
 require("dotenv").config({ path: './config/.env' });
+const mongoose = require('mongoose');
 
 module.exports = class connect {
     static instance;
