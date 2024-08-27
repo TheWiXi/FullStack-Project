@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
 
-const SalaSchema = new Schema({
+const salaSchema = mongoose.Schema({
   nombre: {
     type: String,
     unique: true,
@@ -15,7 +14,6 @@ const SalaSchema = new Schema({
   pelicula_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Pelicula",
-    required: true,
   },
   Funcion: [
     {
@@ -39,12 +37,11 @@ const SalaSchema = new Schema({
         {
           codigo: {
             type: String,
-            unique: true,
             required: true,
           },
           estado: {
             type: String,
-            enum: ["disponible", "reservado", "comprado"],
+            enum: ["disponible", "reservada", "comprada"],
             required: true,
           },
         },
@@ -53,6 +50,4 @@ const SalaSchema = new Schema({
   ],
 });
 
-const Sala = mongoose.model("Sala", SalaSchema);
-
-module.exports = Sala;
+module.exports = mongoose.model("Sala", salaSchema);
