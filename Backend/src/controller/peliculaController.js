@@ -31,16 +31,15 @@ module.exports = class peliculaController {
      * @param {String} idPelicula Id de la pelicula a consultar, ej:66a80379a5aad36c22a20c80 
      * @returns Informacion de la pelicula
      */
-    async apiDos (idPelicula){
+    async peliculabyId (idPelicula){
         try {
-            const cursor = await this.collection.findOne(
-                { "_id": new ObjectId(idPelicula) }
-            ); // * Get the cursor
-            console.log(cursor); // * Print the results
-            return cursor; // * Return the results
+            const result = await Pelicula.findOne(
+                { "_id": idPelicula }
+            ); 
+
+            return result; 
         } 
         catch (error) {
-            // ! Handle errors
             console.error("Error fetching data or closing connection:", error);
         }
     }

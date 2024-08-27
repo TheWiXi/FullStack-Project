@@ -25,6 +25,24 @@ router.get('/showCartelera',async (req, res) =>{
     }
 });
 
+//Pelicula by id
+router.get('/showPelicula', async (req, res) => {
+    try {
+        const idPelicula = req.query.id; 
+        if (!idPelicula) {
+          return res.status(400).json({ error: 'Se requiere el parámetro idPelicula en la URL' });
+        }
+        const result = await peliculaInstance.peliculabyId(idPelicula);
+        if (!result) {
+          return res.status(404).json({ error: 'Película no encontrada' });
+        }
+        res.json(result);
+      } 
+      catch (error) {
+        res.status(500).json({ error: error.message });
+     }
+});
+
 
 
 module.exports = router;
