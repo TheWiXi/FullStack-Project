@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
 
-const UsuarioSchema = new Schema({
+const UsuarioSchema = mongoose.Schema({
   cedula: {
     type: Number,
     unique: true,
@@ -28,6 +27,4 @@ const UsuarioSchema = new Schema({
   },
 });
 
-const Usuario = mongoose.model("Usuario", UsuarioSchema);
-
-module.exports = Usuario;
+module.exports = mongoose.model("Usuario", UsuarioSchema);
