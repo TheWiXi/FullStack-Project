@@ -35,6 +35,14 @@ const peliculaSchema = mongoose.Schema({
       },
     },
   ],
+  gallery: {
+    type: [String],
+    required: true,
+  },
+  trailer: {
+    type: String,
+    required: true,
+  },
 });
 
 module.exports = mongoose.model("Pelicula", peliculaSchema);

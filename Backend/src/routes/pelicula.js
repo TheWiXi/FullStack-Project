@@ -1,16 +1,30 @@
 const express = require('express');
-const peliculaSchema = require('../models/peliculaModel');
+const peliculaController = require('../controller/peliculaController');
+
+const peliculaInstance = new peliculaController();
 
 const router = express.Router();
 
 //Create pelicula
-router.post('/peliculas', (req, res)=>{
-    const newPelicula = peliculaSchema(req.body);
-    newPelicula
-        .save()
-        .then((data) => res.json(data))
-        .catch((error) => res.json(error))
+router.post('/newPelicula', async (req, res)=>{
+    try {
+        const result = await peliculaInstance.newPelicula(req.body);
+        res.json(result); 
+    } catch (error) {
+        res.status(500).json({ error: error.message }); 
+    }
 });
+
+//Cartelera
+router.get('/showCartelera',async (req, res) =>{
+    try {
+        const result = await peliculaInstance.cartelera(req.body);
+        res.json(result); 
+    } catch (error) {
+        res.status(500).json({ error: error.message }); 
+    }
+});
+
 
 
 module.exports = router;
