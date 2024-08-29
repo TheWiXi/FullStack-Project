@@ -32,6 +32,10 @@ Content-Type: application/json
 ###
 GET http://localhost:3000/cineapi/showCartelera HTTP/1.1
 
+//proximamente
+###
+GET http://localhost:3000/cineapi/proximamente HTTP/1.1
+
 
 //Pelicula por Id
 ###
