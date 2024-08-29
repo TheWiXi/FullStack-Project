@@ -14,6 +14,7 @@ const BoletoSchema = new Schema({
   },
   funcion_id: {
     type: mongoose.Schema.Types.ObjectId,
+    ref: "Funcion",
     required: true,
   },
   asientos: [
