@@ -1,0 +1,40 @@
+.coming-soon {
+  width: 100%; 
+  height: 25em;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 0 16px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  }
+  
+  .movie-preview {
+    margin: 5px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .preview-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-right: 12px;
+  }
+  
+  .preview-info {
+    flex-grow: 1;
+  }
+  
+  .preview-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .preview-genre {
+    font-size: 14px;
+    color: #9ca3af;
+  }
