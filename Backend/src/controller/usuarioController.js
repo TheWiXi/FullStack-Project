@@ -1,7 +1,8 @@
 require("dotenv").config({ path: '../../config/.env' });
 const usuarioSchema = require("../models/usuarioModel");
 const {MongoClient} = require("mongodb");
-
+const mongoose = require('mongoose');
+const { ObjectId } = mongoose.Types; 
 
 module.exports = class usuarioController {
   /**
@@ -55,13 +56,10 @@ module.exports = class usuarioController {
    * *NOTA: Lista todos los usuarios
    * @returns Todos los usuarios
    */
-  async apiDos() {
+  async listarUsuarios() {
     try {
-      const cursor = await this.collection.find(); // * Get the cursor
-      const result = await cursor.toArray(); // * Convert the cursor to an array
-      console.table(result); // * Print the results
-      await this.connection.close(); // * Close the connection
-      return result; // * Return the results
+      const result = await usuarioSchema.find();
+      return result;
     } catch (error) {
       // ! Handle errors
       console.error("Error fetching data or closing connection:", error);
@@ -72,21 +70,14 @@ module.exports = class usuarioController {
    * @param {String} rol - rol (user,vip o admin)
    * @returns usuarios con ese rol
    */
-  async apiTres(rol) {
-    if (user.rol === "user" || user.rol === "vip" || user.rol === "admin") {
+  async usuarioId(id) {
       try {
-        const cursor = await this.collection.find({ rol: rol }); // * Get the cursor
-        const result = await cursor.toArray(); // * Convert the cursor to an array
-        console.table(result); // * Print the results
-        await this.connection.close(); // * Close the connection
+        const result = await usuarioSchema.find({ "_id": id }); // * Get the cursor
         return result; // * Return the results
       } catch (error) {
         // ! Handle errors
         console.error("Error fetching data or closing connection:", error);
       }
-    } else {
-      console.log("Error: Rol no válido");
-    }
   }
   /**
    * *NOTA: editar rol del usuario
@@ -94,26 +85,28 @@ module.exports = class usuarioController {
    * @param {String} newRol - nuevo rol del usuario
    * @returns msj usuario actualizado
    */
-  async apiCuatro(idUser, newRol) {
+  async cambioRol(idUser, newRol) {
     try {
-      if (newRol === "user" || newRol === "vip" || newRol === "admin") {
-        const cursor = await this.collection.findOneAndUpdate(
+      if (newRol === "usuario" || newRol === "vip" || newRol === "admin") {
+        const cursor = await usuarioSchema.findOneAndUpdate(
           { _id: new ObjectId(idUser) },
           { $set: { rol: newRol } },
           { returnDocument: "after" }
         );
-        const nick = cursor.value.Nick;
-        const resetrol = await this.db.command({
-          updateUser: nick,
-          roles: [], // Establece un array vacío para eliminar todos los roles
-        });
-        const addNewRol = await db.command({
-          updateUser: nick,
-          roles: [{ role: newRol, db: "Cine" }], // Asegúrate de especificar la base de datos
-        });
-        console.log("Usuario (rol) actualizado.");
-        await this.connection.close(); // * Close the connection
-        return addNewRol;
+        // const client = new MongoClient(process.env.MONGO_SUDO);
+        // await client.connect();
+        // const db = client.db('Cine');
+        // const nick = cursor.value.Nick;
+        // const resetrol = await db.command({
+        //   updateUser: nick,
+        //   roles: [], // Establece un array vacío para eliminar todos los roles
+        // });
+        // const addNewRol = await db.command({
+        //   updateUser: nick,
+        //   roles: [{ role: newRol, db: "Cine" }], // Asegúrate de especificar la base de datos
+        // });
+        // await client.close(); // * Close the connection
+        return cursor;
       } else {
         console.log("Error: Rol no válido");
       }
