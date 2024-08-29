@@ -4,10 +4,12 @@ const connect =require ('./config/connection');
 const peliculaRoutes = require('./src/routes/pelicula');
 const salaRoutes = require('./src/routes/sala');
 const usuarioRoutes = require('./src/routes/usuario');
+const cors = require('cors');
 // const boletoRoutes = require('./src/routes/boleto');
 
 const app = express();
 const port = process.env.API_PORT || 3000;
+app.use(cors());
 
 //Database connection
 new connect();

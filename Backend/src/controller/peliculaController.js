@@ -20,6 +20,17 @@ module.exports = class peliculaController {
             throw error; 
         }
     }
+    async proximamente (){
+        try {
+            const result = await Pelicula.find(
+                { estado: "proximamente" }
+            );
+            return result;
+        } catch (error) {
+            console.error("Error al obtener películas en proximamente:", error);
+            throw error; 
+        }
+    }
     async newPelicula(pelicula){
         const newPelicula = Pelicula(pelicula);
         const result = await newPelicula.save();
