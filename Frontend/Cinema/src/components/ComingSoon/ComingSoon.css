@@ -1,40 +1,49 @@
 .coming-soon {
   width: 100%; 
-  height: 25em;
+  height: 50vh;
   margin-top: 16px;
-  margin-bottom: 16px;
-  padding: 0 16px;
+  padding: 0 30px;
   overflow-x: hidden;
-  overflow-y: auto;
-  }
+  overflow-y: scroll;
+  } 
   
   .movie-preview {
+    width: 100%;
     margin: 5px;
     background-color: #1f1f1f;
-    border-radius: 8px;
-    padding: 8px;
+    border-radius: 17px;
+    padding: 2px;
     display: flex;
     align-items: center;
   }
   
   .preview-image {
-    width: 48px;
-    height: 48px;
-    border-radius: 4px;
+    min-width: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
     object-fit: cover;
     margin-right: 12px;
   }
   
   .preview-info {
+
+    width: 100%;
     flex-grow: 1;
   }
   
   .preview-title {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: white;
     font-weight: 600;
-    margin-bottom: 4px;
   }
   
   .preview-genre {
     font-size: 14px;
-    color: #9ca3af;
+    color: grey;
   }
