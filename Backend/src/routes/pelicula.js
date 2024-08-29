@@ -24,7 +24,7 @@ router.get('/showCartelera',async (req, res) =>{
         res.status(500).json({ error: error.message }); 
     }
 });
-//Cartelera
+//commingsoon
 router.get('/proximamente',async (req, res) =>{
     try {
         const result = await peliculaInstance.proximamente(req.body);
