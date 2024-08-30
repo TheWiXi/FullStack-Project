@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Opcional pero muy recomendado */
+}
+
+.now-playing {
+  margin-top: 16px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.see-all {
+  color: #ef4444;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.carousel-container {
+  width: 100%;
+  margin: 15px;
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden; /* Deshabilitar el scroll vertical */
+  white-space: nowrap;
+
+}
+
+.movie-carousel {
+  width: 90%;
+  height: 16em;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  padding: 0 calc(50% - 64px); /* Half of container width minus half of item width */
+}
+
+.movie-carousel::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.movie-carousel h3{
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.movie-carousel p{
+  color: grey;
+  font-size: .6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.movie-poster {
+  flex: 0 0 128px;
+  width: 128px;
+  margin: 0 8px;
+  scroll-snap-align: center;
+  transition: all 0.3s ease;
+}
+
+.movie-poster.active {
+  transform: scale(1.1);
+}
+
+.poster-image {
+  width: 100%;
+  height: 192px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.scroll-indicator {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator.active {
+  width: 16px; /* Más ancho para el indicador activo */
+  height: 8px; /* Mantener la altura */
+  border-radius: 10px; /* Redondear más para crear efecto de cápsula */
+  background-color: #ff0000; /* Cambiar color del activo, ajusta según tu preferencia */
+}

@@ -1,0 +1,164 @@
+//Peliculas
+//create pelicula
+###
+POST http://localhost:3000/cineapi/newPelicula/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "sala_id": "66ccf058792e930ec07af556",
+  "nombre": "Inception",
+  "genero": ["Ciencia ficción", "Acción", "Aventura"],
+  "duracion": 148,
+  "estado": "cartelera",
+  "cast": [
+    {
+      "nombre": "Leonardo DiCaprio",
+      "personaje": "Cobb"
+    },
+    {
+      "nombre": "Joseph Gordon-Levitt",
+      "personaje": "Arthur"
+    }
+  ],
+  "gallery": [
+    "https://example.com/image1.jpg",
+    "https://example.com/image2.jpg",
+    "https://example.com/image3.jpg"
+  ],
+  "trailer": "https://youtube.com/trailer_inception"
+}
+
+//showcartelera
+###
+GET http://localhost:3000/cineapi/showCartelera HTTP/1.1
+
+//proximamente
+###
+GET http://localhost:3000/cineapi/proximamente HTTP/1.1
+
+
+//Pelicula por Id
+###
+GET http://localhost:3000/cineapi/showPelicula?id=66ce2d585a733c63dca60efe HTTP/1.1
+
+
+//Salas
+//create sala
+###
+POST http://localhost:3000/cineapi/newSala/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "nombre": "Sala 2",
+  "tipo": "2D",
+  "pelicula_id": "64d2c5ae8f1b2c6a5a3e6e17",
+  "Funcion": [
+    {
+      "_id": "64d2c5ae8f1b2c6a5a3e6e18",
+      "hora": "2024-09-02T20:00:00Z",
+      "valor": 10000,
+      "valorVIP": 18000,
+      "asientos": [
+        {
+          "codigo": "A1",
+          "estado": "disponible"
+        },
+        {
+          "codigo": "A2",
+          "estado": "reservada"
+        },
+        {
+          "codigo": "A3",
+          "estado": "comprada"
+        },
+        {
+          "codigo": "B1",
+          "estado": "disponible"
+        },
+        {
+          "codigo": "B2",
+          "estado": "reservada"
+        },
+        {
+          "codigo": "B3",
+          "estado": "comprada"
+        },
+        {
+          "codigo": "C1",
+          "estado": "comprada"
+        },
+        {
+          "codigo": "C2",
+          "estado": "comprada"
+        },
+        {
+          "codigo": "C3",
+          "estado": "comprada"
+        },
+        {
+          "codigo": "D1",
+          "estado": "comprada"
+        },
+        {
+          "codigo": "D2",
+          "estado": "comprada"
+        },
+        {
+          "codigo": "D3",
+          "estado": "comprada"
+        }
+      ]
+    }
+  ]
+}
+//show sala by id
+###
+GET http://localhost:3000/cineapi/showSala?id=66ccf058792e930ec07af556  HTTP/1.1
+
+//usuarios
+//create
+###
+POST http://localhost:3000/cineapi/newUsuario/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "cedula": 1007900962,
+  "nombre": "William Meza",
+  "correo": "william@example.com",
+  "contraseña": "securepassword123",
+  "rol": "usuario"
+}
+//listar
+###
+GET http://localhost:3000/cineapi/showUsers HTTP/1.1
+
+//usuario id
+###
+GET http://localhost:3000/cineapi/userId?id=66cf57ac8fdc03b176601afb  HTTP/1.1
+
+//cambio rol
+###
+POST http://localhost:3000/cineapi/cambioRol/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "idUser": "66cf57ac8fdc03b176601af9",
+  "newRol": "vip"
+}
+
+//boletos
+//create
+###
+POST http://localhost:3000/cineapi/newBoleto HTTP/1.1
+Content-Type: application/json
+
+{
+  "sala_id": "66d0973f41db4b2c6ccd1f23",
+  "cedula_usuario": 1111111111,
+  "funcion_id": "64d2c5ae8f1b2c6a5a3e6e18",
+  "asientos":[
+    {
+      "codigo_asiento": "A1"
+    }
+  ]
+}
