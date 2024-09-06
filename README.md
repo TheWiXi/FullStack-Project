@@ -16,8 +16,7 @@ npm test
 
   ![ejemplo](https://github.com/TheWiXi/FullStack-Project/blob/main/Frontend/Cinema/public/Screenshot%20from%202024-09-06%2007-06-28.png)
 
-
-### Frontend -> 
+### Frontend ->
 
 * Vite por defecto utiliza el PUERTO `3001`, sin embargo si este esta ocupado usara el puerto mas cercano disponible.
 * Para iniciar Vite (Frontend) ejecute una por una las siguientes lineas en su interfaz de comandos:
@@ -28,6 +27,7 @@ npm test
   npm run dev
   ```
 * Vistas del Frontend:
+  ![demo]()
 
   ![Home](https://github.com/TheWiXi/FullStack-Project/blob/main/Frontend/Cinema/public/Screenshot%20from%202024-09-06%2007-17-39.png)
 
