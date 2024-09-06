@@ -15,7 +15,7 @@ export async function movieLoader ({params}) {
 
 export const MoviesDescComponent = () => {
 
-    const {data} = useLoaderData();
+    const data = useLoaderData();
 
     const [cinema, setCinema] = useState(null)
     const selectCinema = (ref) => {
@@ -33,13 +33,13 @@ export const MoviesDescComponent = () => {
 
     return (
         <>
-        console.log(data)
+        {console.log(data)} 
             <SectionIndicator to={-1} section="Cinema Selection" />
             <main className="p-[15px] pt-0 ">
                 <section className="w-full h-[250px]">
                     {
                         trailer ?
-                        <iframe className="w-full h-[100%]" src={`${data.trailer}`} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> 
+                        <iframe className="w-full h-[100%]" src={`https://www.youtube.com/embed/${data.trailer}`} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> 
                         : data && data.gallery && (
                         <img className="w-[100%] h-[100%] object-cover object-[center_25%] rounded-2xl" src={`${data.gallery[0]}`} alt={`${data.nombre}`} />
                         )
