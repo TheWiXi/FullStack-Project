@@ -7,7 +7,7 @@ import { Link, useLoaderData } from "react-router-dom"
 
 export async function movieLoader ({params}) {
 
-    const data = await fetch(`http://localhost:3000/cineapi/showPelicula?id=${params.id}`).then(res => res.json())
+    const data = await fetch(`http://${import.meta.env.VITE_API}:3000/cineapi/showPelicula?id=${params.id}`).then(res => res.json())
     
     return data
 

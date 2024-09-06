@@ -10,7 +10,7 @@ import { useEffect, useState } from "react"
 export const loadSeatReserved = async ({ params }) => {
 
     let uri = JSON.parse(decodeURIComponent(params.info))
-    const { data } = await fetch(`http://localhost:3000/movie/${params.id}`, { cache: "force-cache" }).then(res => res.json())
+    const { data } = await fetch(`http://${import.meta.env.VITE_API}:3000/movie/${params.id}`, { cache: "force-cache" }).then(res => res.json())
 
     return { uri, data }
 
@@ -46,7 +46,7 @@ export const SeatReservationScreen = () => {
     let userVip = checkForVipUser(uri.user)
 
     const onFinalizar = async () => {
-        await fetch(`http://localhost:3000/ticket/${parametros.seatId}`, {method: 'DELETE'})
+        await fetch(`http://${import.meta.env.VITE_API}:3000/ticket/${parametros.seatId}`, {method: 'DELETE'})
         Swal.fire({
             icon: "error",
             title: "Oops...",
@@ -56,7 +56,7 @@ export const SeatReservationScreen = () => {
     }
 
     const comprar = async () => {
-        await fetch(`http://localhost:3000/ticket/${parametros.seatId}`, {
+        await fetch(`http://${import.meta.env.VITE_API}:3000/ticket/${parametros.seatId}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

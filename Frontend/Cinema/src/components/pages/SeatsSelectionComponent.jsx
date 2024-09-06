@@ -80,7 +80,7 @@ export const SeatsSelection = () => {
     }, [funcion])
 
     useEffect(() => {
-        fetch(`http://localhost:3000/cineapi/showSalabypelicula?id=${id}`)
+        fetch(`http://${import.meta.env.VITE_API}:3000/cineapi/showSalabypelicula?id=${id}`)
             .then(res => res.json()).then(data => setFuncion(data.msg))
         // fetch(`http://localhost:3000/user/${import.meta.env.VITE_PASSWORD}`)
         //     .then(res => res.json()).then(data => setUser(data.msg))
