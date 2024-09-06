@@ -32,7 +32,14 @@ export const SeatsSelection = () => {
     const [asientosSala, setAsientosSala] = useState(null) // Agrupa todas las filas de los asientos de la sala segun su codigo y guarda los estados de cada silla
     const [currentSalaDesc, setCurrentSalaDesc] = useState([]) // Almacena TODA la informacion de la sala para preparala al envio de la compra del ticket
     const [seatSelected, setSeatSelected] = useState([]) // Va guardando los asientos que el usuario va  seleccionando
+    // const [user, setUser] = useState([])
     const [ticketPrice, setTicketPrice] = useState(0)
+
+    // const checkForVipUser = ({ Usuario }) => {
+    //     if (!Usuario.tarjeta) return false
+    //     else if (Usuario.tarjeta['estado'] == 'inactiva') return false
+    //     return true
+    // }
 
     useEffect(() => {
         let resultado = {}
@@ -73,8 +80,10 @@ export const SeatsSelection = () => {
     }, [funcion])
 
     useEffect(() => {
-        let pelicula = fetch(`http://localhost:3000/cineapi/showSalabypelicula?id=${id}`)
-            .then(res => res.json())
+        fetch(`http://localhost:3000/cineapi/showSalabypelicula?id=${id}`)
+            .then(res => res.json()).then(data => setFuncion(data.msg))
+        // fetch(`http://localhost:3000/user/${import.meta.env.VITE_PASSWORD}`)
+        //     .then(res => res.json()).then(data => setUser(data.msg))
     }, [])
 
 
@@ -178,16 +187,16 @@ export const SeatsSelection = () => {
     useEffect(() => {
         let tipoSala = currentSalaDesc[5]
         let filaVip = currentSalaDesc[6]
-        let usuario = user
+        // let usuario = user
 
         if (currentSalaDesc.length < 8) return setTicketPrice(0)
 
         let precioBase = tipoSala == '3D' ? 14000 + 5000 : 14000
         let catidadTickets = currentSalaDesc[currentSalaDesc.length - 1]
 
-        usuario = checkForVipUser(usuario)
-        let descuentoVip = usuario ? 0.20 : 0;
-        let precioTotal = 0
+        // usuario = checkForVipUser(usuario)
+        // let descuentoVip = usuario ? 0.20 : 0;
+        // let precioTotal = 0
 
         catidadTickets.forEach(val => {
 
@@ -205,35 +214,35 @@ export const SeatsSelection = () => {
         setTicketPrice(precioTotal)
     }, [currentSalaDesc])
 
-    const generarDataParaEnvio = async () => {
-        let asientos = currentSalaDesc[currentSalaDesc.length - 1]
-        let funcionId = currentSalaDesc[3]
+    // const generarDataParaEnvio = async () => {
+    //     let asientos = currentSalaDesc[currentSalaDesc.length - 1]
+    //     let funcionId = currentSalaDesc[3]
 
-        let obj = {
-            diaName: currentSalaDesc[0],
-            dayNum: currentSalaDesc[1],
-            time: currentSalaDesc[2],
-            funcion: currentSalaDesc[4],
-            tipoSala: currentSalaDesc[5],
-            filaVip: currentSalaDesc[6],
-            asientos: currentSalaDesc[currentSalaDesc.length - 1],
-            total: ticketPrice,
-            user: user
-        }
-        let encode = encodeURIComponent(JSON.stringify(obj))
+    //     let obj = {
+    //         diaName: currentSalaDesc[0],
+    //         dayNum: currentSalaDesc[1],
+    //         time: currentSalaDesc[2],
+    //         funcion: currentSalaDesc[4],
+    //         tipoSala: currentSalaDesc[5],
+    //         filaVip: currentSalaDesc[6],
+    //         asientos: currentSalaDesc[currentSalaDesc.length - 1],
+    //         total: ticketPrice,
+    //         user: user
+    //     }
+    //     let encode = encodeURIComponent(JSON.stringify(obj))
 
-        fetch(`http://localhost:3000/movie/${funcionId}/seat`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ seatsCode: asientos })
-        })
-        .then(res => res.json())
-        .then(data => navigate(`/movie/${id}/seat/${data.ticketGenerado}/${encode}`))
+    //     fetch(`http://localhost:3000/movie/${funcionId}/seat`, {
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-Type': 'application/json'
+    //         },
+    //         body: JSON.stringify({ seatsCode: asientos })
+    //     })
+    //     .then(res => res.json())
+    //     .then(data => navigate(`/movie/${id}/seat/${data.ticketGenerado}/${encode}`))
 
 
-    }
+    // }
 
     return (
         <>
