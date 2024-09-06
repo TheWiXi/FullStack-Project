@@ -115,6 +115,9 @@ Content-Type: application/json
 ###
 GET http://localhost:3000/cineapi/showSala?id=66ccf058792e930ec07af556  HTTP/1.1
 
+### 
+GET http://localhost:3000/cineapi/showSalabypelicula?id=66cf440a8fdc03b176601aed  HTTP/1.1
+
 //usuarios
 //create
 ###
