@@ -29,4 +29,17 @@ module.exports = class salaController {
             console.error("Error fetching data :", error);
         }
     }
+
+    async salabyPelicula(idPelicula){
+        try {
+            const result = await Sala.findOne(
+                { "pelicula_id": idPelicula}
+            ); 
+
+            return result; 
+        } 
+        catch (error) {
+            console.error("Error fetching data :", error);
+        }
+    }
 }
