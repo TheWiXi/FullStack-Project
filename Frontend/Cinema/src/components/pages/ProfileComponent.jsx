@@ -3,7 +3,7 @@ import { SectionIndicator } from "../headers/SectionIndicator"
 
 export const userLoader = async () => {
 
-    let { msg } = await fetch(`http://${import.meta.env.VITE_API}:3000/user/${import.meta.env.VITE_PASSWORD}`).then(res => res.json())
+    let { msg } = await fetch(`http://${import.meta.env.VITE_API}/user/${import.meta.env.VITE_PASSWORD}`).then(res => res.json())
 
     return msg
 

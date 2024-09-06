@@ -4,7 +4,7 @@ import { TicketCard } from "../bodys/TicketCard"
 
 export const loader = async () => {
 
-    const data = await fetch(`http://localhost:3000/user/${Number(import.meta.env.VITE_PASSWORD)}/tickets`).then(res => res.json())
+    const data = await fetch(`http://localhost/user/${Number(import.meta.env.VITE_PASSWORD)}/tickets`).then(res => res.json())
 
     return data
 

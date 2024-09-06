@@ -5,7 +5,7 @@ import { TicketCard } from "../bodys/TicketCard"
 
 export const loader = async ({params}) => {
 
-    const {data} = await fetch(`http://localhost:3000/ticket/${params.id}`).then(res => res.json())
+    const {data} = await fetch(`http://localhost/ticket/${params.id}`).then(res => res.json())
     return data
 
 }

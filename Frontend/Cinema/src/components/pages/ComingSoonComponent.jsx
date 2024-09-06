@@ -6,7 +6,7 @@ import { ComingCards } from "../bodys/ComingCards"
 
 export async function comingSoonMoviesLoader () {
 
-    let prox = await fetch(`http://${import.meta.env.VITE_API}:3000/cineapi/proximamente`, { cache: "force-cache" }).then(res => res.json())
+    let prox = await fetch(`http://${import.meta.env.VITE_API}/cineapi/proximamente`, { cache: "force-cache" }).then(res => res.json())
     return prox
 }
 

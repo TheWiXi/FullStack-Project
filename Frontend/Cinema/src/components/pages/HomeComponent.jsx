@@ -16,8 +16,8 @@ import 'swiper/css/scrollbar'
 import 'swiper/css/pagination'
 
 export async function moviesLoader() {
-    let data = await fetch(`http://${import.meta.env.VITE_API}:3000/cineapi/showCartelera`).then(res => res.json())
-    let prox = await fetch(`http://${import.meta.env.VITE_API}:3000/cineapi/proximamente`).then(res => res.json())
+    let data = await fetch(`http://${import.meta.env.VITE_API}/cineapi/showCartelera`).then(res => res.json())
+    let prox = await fetch(`http://${import.meta.env.VITE_API}/cineapi/proximamente`).then(res => res.json())
     return { proximamente: prox, data: data }
 }
 
