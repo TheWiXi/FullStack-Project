@@ -32,14 +32,7 @@ export const SeatsSelection = () => {
     const [asientosSala, setAsientosSala] = useState(null) // Agrupa todas las filas de los asientos de la sala segun su codigo y guarda los estados de cada silla
     const [currentSalaDesc, setCurrentSalaDesc] = useState([]) // Almacena TODA la informacion de la sala para preparala al envio de la compra del ticket
     const [seatSelected, setSeatSelected] = useState([]) // Va guardando los asientos que el usuario va  seleccionando
-    const [user, setUser] = useState([])
     const [ticketPrice, setTicketPrice] = useState(0)
-
-    const checkForVipUser = ({ Usuario }) => {
-        if (!Usuario.tarjeta) return false
-        else if (Usuario.tarjeta['estado'] == 'inactiva') return false
-        return true
-    }
 
     useEffect(() => {
         let resultado = {}
@@ -80,10 +73,8 @@ export const SeatsSelection = () => {
     }, [funcion])
 
     useEffect(() => {
-        fetch(`http://localhost:3000/movie/${id}/functions`)
-            .then(res => res.json()).then(data => setFuncion(data.msg))
-        fetch(`http://localhost:3000/user/${import.meta.env.VITE_PASSWORD}`)
-            .then(res => res.json()).then(data => setUser(data.msg))
+        let pelicula = fetch(`http://localhost:3000/cineapi/showSalabypelicula?id=${id}`)
+            .then(res => res.json())
     }, [])
 
 

@@ -33,7 +33,6 @@ export const MoviesDescComponent = () => {
 
     return (
         <>
-        {console.log(data)} 
             <SectionIndicator to={-1} section="Cinema Selection" />
             <main className="p-[15px] pt-0 ">
                 <section className="w-full h-[250px]">
