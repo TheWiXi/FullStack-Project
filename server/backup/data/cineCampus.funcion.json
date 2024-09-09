@@ -1,0 +1,2468 @@
+[{
+  "_id": {
+    "$oid": "66cf136cbd321146f37c704e"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c84"
+  },
+  "id_sala": {
+    "$oid": "66a8058ca5aad36c22a20c9e"
+  },
+  "fecha_init": {
+    "$date": "2024-08-30T18:00:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-08-30T20:30:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E8",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E9",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F8",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F9",
+      "estado": "reservada"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf136cbd321146f37c704f"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c8a"
+  },
+  "id_sala": {
+    "$oid": "66a8058ca5aad36c22a20c9f"
+  },
+  "fecha_init": {
+    "$date": "2024-09-05T15:30:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-09-05T17:45:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C2",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C3",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C6",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C8",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C9",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D9",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F7",
+      "estado": "disponible"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf136cbd321146f37c7050"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c8b"
+  },
+  "id_sala": {
+    "$oid": "66a8058ca5aad36c22a20ca0"
+  },
+  "fecha_init": {
+    "$date": "2024-08-29T20:00:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-08-29T22:15:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A2",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A3",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D2",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D6",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F9",
+      "estado": "comprada"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf136cbd321146f37c7051"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c8d"
+  },
+  "id_sala": {
+    "$oid": "66a8058ca5aad36c22a20ca1"
+  },
+  "fecha_init": {
+    "$date": "2024-08-30T14:00:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-08-30T16:30:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D9",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F6",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F8",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F9",
+      "estado": "disponible"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf136cbd321146f37c7052"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c8e"
+  },
+  "id_sala": {
+    "$oid": "66a8058ca5aad36c22a20ca2"
+  },
+  "fecha_init": {
+    "$date": "2024-08-29T19:30:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-08-29T21:45:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D9",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F9",
+      "estado": "disponible"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf1540bd321146f37c7053"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c80"
+  },
+  "id_sala": {
+    "$oid": "66cf1540bd321146f37c7053"
+  },
+  "fecha_init": {
+    "$date": "2024-08-30T18:00:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-08-30T20:00:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A3",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E8",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E9",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F8",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F9",
+      "estado": "reservada"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf1540bd321146f37c7054"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c85"
+  },
+  "id_sala": {
+    "$oid": "66cf400b9b2210a2d8e05c77"
+  },
+  "fecha_init": {
+    "$date": "2024-09-05T12:30:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-09-05T14:45:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C2",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C3",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C6",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C8",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C9",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D9",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F7",
+      "estado": "disponible"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf1540bd321146f37c7055"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c8c"
+  },
+  "id_sala": {
+    "$oid": "66cf40329b2210a2d8e05c78"
+  },
+  "fecha_init": {
+    "$date": "2024-08-29T22:00:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-08-29T00:15:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A2",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A3",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D2",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D6",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F9",
+      "estado": "comprada"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf1540bd321146f37c7056"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c82"
+  },
+  "id_sala": {
+    "$oid": "66a8058ca5aad36c22a20c9e"
+  },
+  "fecha_init": {
+    "$date": "2024-08-30T16:00:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-08-30T18:30:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D9",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F6",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F8",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F9",
+      "estado": "disponible"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf1540bd321146f37c7057"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c8f"
+  },
+  "id_sala": {
+    "$oid": "66a8058ca5aad36c22a20ca0"
+  },
+  "fecha_init": {
+    "$date": "2024-08-29T21:30:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-08-29T23:45:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D9",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F9",
+      "estado": "disponible"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf400b9b2210a2d8e05c77"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c80"
+  },
+  "id_sala": {
+    "$oid": "66a8058ca5aad36c22a20ca2"
+  },
+  "fecha_init": {
+    "$date": "2024-08-30T16:00:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-08-30T18:00:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A3",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "A5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "B5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "C7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C9",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "D8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D9",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "E5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F2",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F3",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F6",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "F8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F9",
+      "estado": "disponible"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66cf40329b2210a2d8e05c78"
+  },
+  "id_pelicula": {
+    "$oid": "66a80379a5aad36c22a20c80"
+  },
+  "id_sala": {
+    "$oid": "66cf400b9b2210a2d8e05c77"
+  },
+  "fecha_init": {
+    "$date": "2024-09-01T16:00:00.000Z"
+  },
+  "fecha_end": {
+    "$date": "2024-09-01T18:00:00.000Z"
+  },
+  "asientos": [
+    {
+      "codigo": "A1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A2",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A3",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "A5",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "B1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "B7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C1",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C4",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "C5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "C7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D2",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "D6",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "D7",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E1",
+      "estado": "reservada"
+    },
+    {
+      "codigo": "E2",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E3",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E4",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E5",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E6",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E7",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E8",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "E9",
+      "estado": "disponible"
+    },
+    {
+      "codigo": "F1",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F2",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F3",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F4",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F5",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F6",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F7",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F8",
+      "estado": "comprada"
+    },
+    {
+      "codigo": "F9",
+      "estado": "comprada"
+    }
+  ]
+}]

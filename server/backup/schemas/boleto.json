@@ -1,0 +1,58 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'cedula_user',
+      'id_funcion',
+      'id_sala',
+      'asientos',
+      'estado'
+    ],
+    properties: {
+      cedula_user: {
+        bsonType: 'int',
+        description: 'Identificador único del cliente (ObjectId, obligatorio)'
+      },
+      id_funcion: {
+        bsonType: 'objectId',
+        description: 'Identificador único de la función (ObjectId, obligatorio)'
+      },
+      id_sala: {
+        bsonType: 'objectId',
+        description: 'Identificador único de la sala (ObjectId, obligatorio)'
+      },
+      asientos: {
+        bsonType: 'array',
+        minItems: 1,
+        items: {
+          bsonType: 'string',
+          pattern: '^[A-Ka-k](1[0-9]|20|[1-9])$',
+          description: 'Asiento (obligatorio, formato: letra A-F seguida de número 1-9)'
+        }
+      },
+      fechaCompra: {
+        bsonType: 'date',
+        description: 'Fecha y hora de compra de la boleta'
+      },
+      fechaReserva: {
+        bsonType: 'date',
+        description: 'Fecha y hora de reserva de la boleta'
+      },
+      total: {
+        bsonType: [
+          'decimal',
+          'int'
+        ],
+        minimum: 0,
+        description: 'Total de la compra (obligatorio, valor numérico positivo o cero)'
+      },
+      estado: {
+        bsonType: 'string',
+        'enum': [
+          'reservada',
+          'comprada'
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+[{
+  "_id": 1234,
+  "Nombre": "Admin",
+  "Nick": "Administrador",
+  "contrasenia": 1234,
+  "email": "admin@gmail.com",
+  "telefono": "3222352673",
+  "rol": "UsuarioVip",
+  "tarjeta": {
+    "estado": "activa"
+  }
+},
+{
+  "_id": 123456,
+  "Nombre": "robert perez",
+  "Nick": "RBRT",
+  "rol": "UsuarioVip",
+  "contrasenia": 123456,
+  "email": "pepito@gmail.com",
+  "telefono": "3222352673"
+},
+{
+  "_id": 123,
+  "Nombre": "karen",
+  "Nick": "karen",
+  "rol": "UsuarioEstandar",
+  "contrasenia": 123,
+  "email": "karen@gmail.com",
+  "telefono": "3222352673",
+  "tarjeta": {
+    "estado": "inactiva"
+  }
+}]

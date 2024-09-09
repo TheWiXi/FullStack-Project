@@ -1,0 +1,56 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'Nombre',
+      'Nick',
+      'contrasenia',
+      'email',
+      'telefono'
+    ],
+    properties: {
+      _id: {
+        bsonType: 'int'
+      },
+      Nombre: {
+        bsonType: 'string',
+        description: 'Nombre completo del usuario (obligatorio)'
+      },
+      Nick: {
+        bsonType: 'string',
+        description: 'Nickname o alias del usuario (obligatorio)'
+      },
+      contrasenia: {
+        bsonType: 'int',
+        description: 'La contraseña debe ser la cedula del usuario (obligatorio)'
+      },
+      email: {
+        bsonType: 'string',
+        pattern: '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$',
+        description: 'Correo electrónico del usuario (obligatorio, debe ser válido)'
+      },
+      telefono: {
+        bsonType: 'string',
+        pattern: '^[0-9]{10}$',
+        description: 'Número de teléfono del usuario (obligatorio, debe ser válido)'
+      },
+      tarjeta: {
+        bsonType: 'object',
+        properties: {
+          fechaVencimiento: {
+            bsonType: 'date',
+            description: 'Fecha de vencimiento de la tarjeta'
+          },
+          estado: {
+            bsonType: 'string',
+            'enum': [
+              'activa',
+              'inactiva'
+            ],
+            description: 'Estado de la tarjeta (activa o inactiva)'
+          }
+        }
+      }
+    }
+  }
+}
