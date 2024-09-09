@@ -1,0 +1,41 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'titulo',
+      'genero',
+      'duracion',
+      'sinopsis',
+      'estado'
+    ],
+    properties: {
+      titulo: {
+        bsonType: 'string',
+        description: 'Título de la película (obligatorio)'
+      },
+      genero: {
+        bsonType: 'string',
+        description: 'Género de la película (obligatorio)'
+      },
+      duracion: {
+        bsonType: 'int',
+        minimum: 0,
+        description: 'Duración de la película en minutos (obligatorio)'
+      },
+      sinopsis: {
+        bsonType: 'string',
+        description: 'Sinopsis de la película (obligatorio)'
+      },
+      estado: {
+        bsonType: 'string',
+        'enum': [
+          'en cartelera',
+          'descontinuada',
+          'estreno',
+          'proximamente'
+        ],
+        description: 'Estado de la película (obligatorio, opciones: en cartelera, descontinuada, estreno, proximamente)'
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'id_pelicula',
+      'id_sala',
+      'fecha_init',
+      'fecha_end',
+      'asientos'
+    ],
+    properties: {
+      id_pelicula: {
+        bsonType: 'objectId',
+        description: 'Identificador único de la película (ObjectId, obligatorio)'
+      },
+      id_sala: {
+        bsonType: 'objectId',
+        description: 'Identificador único de la sala (ObjectId, obligatorio)'
+      },
+      fecha_init: {
+        bsonType: 'date',
+        description: 'Fecha y hora de inicio de la función (obligatorio)'
+      },
+      fecha_end: {
+        bsonType: 'date',
+        description: 'Fecha y hora de finalización de la función (obligatorio)'
+      },
+      asientos: {
+        bsonType: 'array',
+        minItems: 1,
+        items: {
+          bsonType: 'object',
+          required: [
+            'codigo',
+            'estado'
+          ],
+          properties: {
+            codigo: {
+              bsonType: 'string',
+              pattern: '^[A-Ka-k](1[0-9]|20|[1-9])$'
+            },
+            estado: {
+              bsonType: 'string',
+              'enum': [
+                'reservada',
+                'comprada',
+                'disponible'
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

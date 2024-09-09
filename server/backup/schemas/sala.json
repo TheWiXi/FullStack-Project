@@ -1,0 +1,38 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'nombre',
+      'tipo_Sala',
+      'filaVip',
+      'asientos'
+    ],
+    properties: {
+      nombre: {
+        bsonType: 'string',
+        description: 'Nombre de la sala (obligatorio)'
+      },
+      tipo_Sala: {
+        bsonType: 'string',
+        'enum': [
+          '2D',
+          '3D'
+        ],
+        description: 'Tipo de sala (obligatorio, opciones: 2D, 3D, etc.)'
+      },
+      filaVip: {
+        bsonType: 'string',
+        maxLength: 1,
+        description: 'Fila VIP (obligatorio, un solo carácter)'
+      },
+      asientos: {
+        bsonType: 'array',
+        minItems: 1,
+        items: {
+          bsonType: 'string'
+        },
+        description: 'Número de asientos disponibles (obligatorio, número entero)'
+      }
+    }
+  }
+}

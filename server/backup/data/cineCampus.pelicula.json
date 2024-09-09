@@ -1,0 +1,463 @@
+[{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c80"
+  },
+  "titulo": "Puss in boots: The last wish",
+  "genero": "Action",
+  "duracion": 155,
+  "sinopsis": "El Gato con Botas descubre que, debido a su pasión por la aventura, ha gastado ya 8 de sus 9 vidas. Por tanto, emprende un peligroso viaje en busca del legendario Último Deseo para solicitar que le restauren las vidas que ya perdió.",
+  "estado": "en cartelera",
+  "fecha": {
+    "$date": "2024-07-15T00:00:00.000Z"
+  },
+  "poster": "m.media-amazon.com/images/M/MV5BNjMyMDBjMGUtNDUzZi00N2MwLTg1MjItZTk2MDE1OTZmNTYxXkEyXkFqcGdeQXVyMTQ5NjA0NDM0._V1_.jpg",
+  "cast": [
+    {
+      "img": "encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTlfOeOsUVtrlcd4BZ9TEvgyiyRJqeM7jVjg0kGVrg24kZGToD",
+      "name": "Antonio Banderas",
+      "rol": "El gato con botas"
+    },
+    {
+      "img": "encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS17E1erGJcHAagijfsHzokkrjUXDDHunL_n4Wcn2WJ9FC-Bm-c",
+      "name": "Wagner Moura",
+      "rol": "La muerte"
+    },
+    {
+      "img": "encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWI6ePR8jkzlfQ4skx-sS1LZ1-doYodvXEIQ&s",
+      "name": "Salma Hayek",
+      "rol": "Kitty patitas suaves"
+    }
+  ],
+  "trailer": "QaiUm8jNiCk"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c81"
+  },
+  "titulo": "Barbie",
+  "genero": "Comedia",
+  "duracion": 114,
+  "sinopsis": "Una muñeca que vive en 'Barbieland' es expulsada por no ser lo suficientemente perfecta y se embarca en una aventura en el mundo real.",
+  "estado": "proximamente",
+  "fecha": {
+    "$date": "2024-12-20T00:00:00.000Z"
+  },
+  "poster": "m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c82"
+  },
+  "titulo": "Oppenheimer",
+  "genero": "Drama histórico",
+  "duracion": 180,
+  "sinopsis": "La historia del físico J. Robert Oppenheimer y su papel en el desarrollo de la bomba atómica.",
+  "estado": "en cartelera",
+  "fecha": {
+    "$date": "2024-07-22T00:00:00.000Z"
+  },
+  "cast": [
+    {
+      "img": "encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTfOPvTCrmX0EuiGroTqe9LLzcEydUYIVnwccLCK7G_qtt5pInS",
+      "name": "Cillian Murphy",
+      "rol": "Oppenheimer"
+    },
+    {
+      "img": "encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTm4ywk7qTpdllQ2XPFSXEYBEXo1qHPIDnz8kKpKODJadpBIJD4",
+      "name": "Emily Blunt",
+      "rol": "Kitty"
+    },
+    {
+      "img": "encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRVnkJcLs_J2UHryaszAp2IJirxb2KisG-g4Ox--RRCDKKvnToS4PvFjZHJTaRCMrrjbcLLczAB4Zl3B5I",
+      "name": "Matt Damon",
+      "rol": "Leslie Groves"
+    }
+  ],
+  "poster": "m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg",
+  "trailer": "gMPEbJQun68"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c83"
+  },
+  "titulo": "Misión Imposible: Sentencia Mortal - Parte Uno",
+  "genero": "Acción",
+  "duracion": 163,
+  "sinopsis": "Ethan Hunt y su equipo del FMI se embarcan en su misión más peligrosa hasta el momento: rastrear una nueva arma aterradora que amenaza a toda la humanidad.",
+  "estado": "descontinuada",
+  "fecha": {
+    "$date": "1972-03-24T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c84"
+  },
+  "titulo": "Elemental",
+  "genero": "Animación",
+  "duracion": 102,
+  "sinopsis": "En una ciudad donde conviven criaturas de fuego, agua, tierra y aire, una joven de fuego y un chico de agua descubren algo elemental: cuánto tienen en común.",
+  "estado": "estreno",
+  "fecha": {
+    "$date": "2024-07-20T00:00:00.000Z"
+  },
+  "cast": [
+    {
+      "img": "encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcR3roUCFsKwrG07nLOYegVwt9jbknRQwbfaI6BenvMNVv82ef_VA1yu6F8Ez6YPtSh0X79jkSpljkwLfIs",
+      "name": "Leah Lewis",
+      "rol": "Ember"
+    },
+    {
+      "img": "encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS7aVvl_STg4gBZrx45_eMRIKHVcDt9dzdpr7kRIQjOVAKI5her",
+      "name": "Mamoudou Athie",
+      "rol": "Wade"
+    },
+    {
+      "img": "encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRYE3Q7zrx157jex7rDpa1aNXpcPULZ7gwqTmy-Psk_q5icNDCb",
+      "name": "Ronnie Del Carmen",
+      "rol": "Bernie"
+    }
+  ],
+  "poster": "m.media-amazon.com/images/M/MV5BNjU2MjE1OGItZjdmYS00ZmIyLTljNjYtOWI5ZGRkZjM4NDEwXkEyXkFqcGc@._V1_.jpg",
+  "trailer": "Rp20svf0qpA"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c85"
+  },
+  "titulo": "El Padrino",
+  "genero": "Drama criminal",
+  "duracion": 175,
+  "sinopsis": "La historia de la familia Corleone, una poderosa dinastía del crimen organizado en Nueva York.",
+  "estado": "en cartelera",
+  "fecha": {
+    "$date": "2024-07-22T00:00:00.000Z"
+  },
+  "cast": [
+    {
+      "img": "encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRr6lJpq-tarMCLTAgZkPcJPd8mPzENcJ296PTMPH-7_XMYrX4h",
+      "name": "Damian Chapa",
+      "rol": "Kilo"
+    },
+    {
+      "img": "encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTHUL_THndqZzwagwIKE9rNdloq3efuhGfXWxwmX_LbgoJBaplwTpqSrvrZpGqMgipLmggW_1hhFvJmQaA",
+      "name": "Sal Lopez",
+      "rol": "Loco"
+    },
+    {
+      "img": "encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd1KURwHUXyLDynE5y7Ry-ul8C21xGTYEY8tdcmcThsgofr-PH",
+      "name": "Emilio Rivera",
+      "rol": "Rudy"
+    }
+  ],
+  "poster": "m.media-amazon.com/images/M/MV5BMTI2MjI4NTgyNF5BMl5BanBnXkFtZTcwOTM5NzQ5MQ@@._V1_.jpg",
+  "trailer": "iOyQx7MXaz0"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c86"
+  },
+  "titulo": "El Mago de Oz",
+  "genero": "Fantasía musical",
+  "duracion": 102,
+  "sinopsis": "Dorothy Gale es arrastrada por un tornado desde Kansas a la mágica Tierra de Oz, y emprende un viaje para encontrar al Mago y regresar a casa.",
+  "estado": "descontinuada",
+  "fecha": {
+    "$date": {
+      "$numberLong": "-957916800000"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c87"
+  },
+  "titulo": "Lo que el viento se llevó",
+  "genero": "Drama histórico",
+  "duracion": 238,
+  "sinopsis": "La historia de Scarlett O'Hara y su lucha por sobrevivir durante la Guerra Civil estadounidense y la Reconstrucción.",
+  "estado": "descontinuada",
+  "fecha": {
+    "$date": {
+      "$numberLong": "-948240000000"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c88"
+  },
+  "titulo": "Casablanca",
+  "genero": "Drama romántico",
+  "duracion": 102,
+  "sinopsis": "En Casablanca, durante la Segunda Guerra Mundial, Rick Blaine se reencuentra con su antiguo amor Ilsa Lund, quien ahora está casada con un líder de la resistencia.",
+  "estado": "descontinuada",
+  "fecha": {
+    "$date": {
+      "$numberLong": "-855187200000"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c89"
+  },
+  "titulo": "Ciudadano Kane",
+  "genero": "Drama",
+  "duracion": 119,
+  "sinopsis": "La vida del magnate de los medios Charles Foster Kane es examinada a través de los recuerdos de quienes lo conocieron.",
+  "estado": "descontinuada",
+  "fecha": {
+    "$date": {
+      "$numberLong": "-904780800000"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c8a"
+  },
+  "titulo": "El Conde",
+  "genero": "Comedia negra",
+  "duracion": 93,
+  "sinopsis": "Augusto Pinochet, el exdictador chileno, vive como un vampiro de 250 años, oculto en una mansión en ruinas.",
+  "estado": "estreno",
+  "fecha": {
+    "$date": "2024-07-29T00:00:00.000Z"
+  },
+  "cast": [
+    {
+      "img": "encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnl7cRff63kC06b4vza42Aw_UJ1SQsqwlMqWQ9_uAXIX5QP8-F",
+      "name": "Jaime Vadell",
+      "rol": "El conde"
+    },
+    {
+      "img": "encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ9LIZuCR0gNRK4TH8Z8lrRenrKRSBPWe-A_0eajl9CaEtiRe0w",
+      "name": "Gloria Munchmeyer",
+      "rol": "Lucia"
+    },
+    {
+      "img": "encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSgEkjOsn1eDRIuh45gH-Kxc7RahHFC-sFbzKgVLzDhZwB6GJz4",
+      "name": "Alfredo Castro",
+      "rol": "Fyodor"
+    }
+  ],
+  "poster": "m.media-amazon.com/images/M/MV5BZDRmNmJlMzYtYWJjNC00ZWMzLWE1MzAtZDI1NzE0ZTIzMjkyXkEyXkFqcGdeQXVyMTI4NjE0MTU2._V1_.jpg",
+  "trailer": "K2TMxJpSjpg"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c8b"
+  },
+  "titulo": "Killers of the Flower Moon",
+  "genero": "Western",
+  "duracion": 206,
+  "sinopsis": "Miembros de la Nación Osage en los Estados Unidos son asesinados en circunstancias misteriosas, y el FBI investiga los crímenes.",
+  "estado": "estreno",
+  "fecha": {
+    "$date": "2024-07-27T00:00:00.000Z"
+  },
+  "cast": [
+    {
+      "img": "encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT7cOVRwz9nSmJPRgUbDR1gnGC3Eju0y_2HwH_71Czh_nA6eSpG",
+      "name": "Leonardo DiCaprio",
+      "rol": "Ernest Burkhart"
+    },
+    {
+      "img": "encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeLFH1fW3TwUn-ZtLKwbxL37rrGo_S2BeqYKMPiyEl0TYsrbnL",
+      "name": "Robert De Niro",
+      "rol": "William Hale"
+    },
+    {
+      "img": "encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcShp1tOJ36XZ5uFFOknIlHzc6fxP4HiUfE29tpOErSHQbED1iFQ",
+      "name": "Lily Gladstone",
+      "rol": "Mollie Burkhart"
+    }
+  ],
+  "poster": "m.media-amazon.com/images/M/MV5BMjE4ZTZlNDAtM2Q3YS00YjFhLThjN2UtODg2ZGNlN2E2MWU2XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+  "trailer": "ShmjZIzfgN4"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c8c"
+  },
+  "titulo": "Wonka",
+  "genero": "Fantasía musical",
+  "duracion": 117,
+  "sinopsis": "La historia del joven Willy Wonka y cómo llegó a convertirse en el excéntrico fabricante de chocolate.",
+  "estado": "en cartelera",
+  "fecha": {
+    "$date": "2024-07-20T00:00:00.000Z"
+  },
+  "cast": [
+    {
+      "img": "encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbxffKBZDNZj32qV2vwr2DvJX1DU5Ab1ttUhOhqyQaaAKFfZzb",
+      "name": "Timothée Chalamet",
+      "rol": "Willy Wonka"
+    },
+    {
+      "img": "ichef.bbci.co.uk/news/480/cpsprodpb/16D70/production/_130525539_mediaitem130525538.jpg.webp",
+      "name": "Gustave Die",
+      "rol": "Ship's Engineer"
+    },
+    {
+      "img": "encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS8uhzmythGIf55lptWPzzWDyD6Gw-3X38Za-VtDNSboO9VcSVr",
+      "name": "Murray McArthur",
+      "rol": "Ship's Captain"
+    }
+  ],
+  "poster": "m.media-amazon.com/images/M/MV5BNDM4NTk0NjktZDJhMi00MmFmLTliMzEtN2RkZDY2OTNiMDgzXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+  "trailer": "LiILH5WOAAk"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c8d"
+  },
+  "titulo": "The Killer",
+  "genero": "Thriller",
+  "duracion": 158,
+  "sinopsis": "Después de un fatídico error, un asesino se enfrenta a sus empleadores y a sí mismo en una persecución internacional.",
+  "estado": "estreno",
+  "fecha": {
+    "$date": "2024-07-25T00:00:00.000Z"
+  },
+  "cast": [
+    {
+      "img": "encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQrzR9eEhXAn_Lu0LwaKEYnkrf5xoeENcnyX54lPft16BPGKz2Q",
+      "name": "Michael Fassbender",
+      "rol": "The Killer"
+    },
+    {
+      "img": "encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2XukgGUr0wBSUq-ARtLLCZtDQ-VYZmSZedlztbA726B9HG9s1",
+      "name": "Tilda Swinton",
+      "rol": "The Expert"
+    },
+    {
+      "img": "encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_7TeuuIjkFllRkj53EgtpFUwFmVtBJimmIw&s",
+      "name": "Charles Parnell",
+      "rol": "The Lawyer - Hodges"
+    }
+  ],
+  "poster": "m.media-amazon.com/images/M/MV5BZGJkMDUwZWQtYTMzMS00NTg5LWE1ZTYtOTVhMDI4NGI1YjMyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+  "trailer": "5S7FR_HCg9g"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c8e"
+  },
+  "titulo": "Dune: Part Two",
+  "genero": "Ciencia ficción",
+  "duracion": 156,
+  "sinopsis": "Paul Atreides se une a Chani y los Fremen para vengarse de los conspiradores que destruyeron a su familia.",
+  "estado": "estreno",
+  "fecha": {
+    "$date": "2024-07-23T00:00:00.000Z"
+  },
+  "cast": [
+    {
+      "img": "encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbxffKBZDNZj32qV2vwr2DvJX1DU5Ab1ttUhOhqyQaaAKFfZzb",
+      "name": "Timothée Chalamet",
+      "rol": "Paul Atreides"
+    },
+    {
+      "img": "encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQr_o9srG0oxgqnu3ZBy9mBqmVzE9CAZycNP90EzYj09V-Qbrzv",
+      "name": "Zendaya",
+      "rol": "Chani"
+    },
+    {
+      "img": "encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQPSwZyA7SA3YBireC58d65a5yv14UGy3k9l4tiIZsxsn4aQqRi",
+      "name": "Rebecca Ferguson",
+      "rol": "Jessica"
+    }
+  ],
+  "poster": "m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg",
+  "trailer": "Way9Dexny3w"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c8f"
+  },
+  "titulo": "Aquaman and the Lost Kingdom",
+  "genero": "Acción",
+  "duracion": 120,
+  "sinopsis": "Aquaman debe forjar una alianza incómoda con un aliado improbable para proteger Atlantis y el mundo de una devastación irreversible.",
+  "estado": "en cartelera",
+  "fecha": {
+    "$date": "2024-07-20T00:00:00.000Z"
+  },
+  "cast": [
+    {
+      "img": "encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJZ89wjIfbgx1t4Z7Y_fsaYxXCdbrXCG3WinU4iaJA3GRCsmwZ",
+      "name": "Jason Momoa",
+      "rol": "Arthur"
+    },
+    {
+      "img": "encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQs3K21RURZrlzWONSA-5GluAL1ffzQjOpmPg9qIf4b1i1O-xm",
+      "name": "Patrick Wilson",
+      "rol": "Orm"
+    },
+    {
+      "img": "encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQzEwSB9K5D4jH41bCVRsyf3bA5_lHXGvs-CegfniIJ-PFNYxjf",
+      "name": "Yahya Abdul-Mateen II",
+      "rol": "Black Mantha"
+    }
+  ],
+  "poster": "m.media-amazon.com/images/M/MV5BYjQ1ZTUzMWMtY2VkNS00ZDRjLWEwODYtYmFkMWJiNTQxMDUzXkEyXkFqcGc@._V1_.jpg",
+  "trailer": "UGc5Tzz19UY"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c90"
+  },
+  "titulo": "The Marvels",
+  "genero": "Acción",
+  "duracion": 130,
+  "sinopsis": "Carol Danvers, Kamala Khan y Monica Rambeau comienzan a intercambiar lugares cada vez que usan sus poderes y deben unirse para enfrentar una nueva amenaza.",
+  "estado": "proximamente",
+  "fecha": {
+    "$date": "2024-10-10T00:00:00.000Z"
+  },
+  "poster": "m.media-amazon.com/images/M/MV5BM2U2YWU5NWMtOGI2Ni00MGMwLWFkNjItMjgyZWMxNjllNTMzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c91"
+  },
+  "titulo": "Next Goal Wins",
+  "genero": "Comedia",
+  "duracion": 103,
+  "sinopsis": "El entrenador de fútbol americano Thomas Rongen es contratado para dirigir a la selección de fútbol de Samoa Americana, considerada el peor equipo del mundo.",
+  "estado": "proximamente",
+  "fecha": {
+    "$date": "2024-09-20T00:00:00.000Z"
+  },
+  "poster": "m.media-amazon.com/images/M/MV5BNDIwNWQwYTktZGQwYS00NzNjLThhNDMtODBlYmI5N2E0NjM0XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c92"
+  },
+  "titulo": "The Hunger Games: The Ballad of Songbirds & Snakes",
+  "genero": "Ciencia ficción",
+  "duracion": 147,
+  "sinopsis": "Años antes de convertirse en el tiránico presidente de Panem, el joven Coriolanus Snow ve una oportunidad de cambiar su destino cuando es elegido como mentor de Lucy Gray Baird, la chica tributo del empobrecido Distrito 12.",
+  "estado": "proximamente",
+  "fecha": {
+    "$date": "2024-11-17T00:00:00.000Z"
+  },
+  "poster": "m.media-amazon.com/images/M/MV5BOTZmMmY2MzctMjU2Yy00YjJlLTk1NjAtY2U4MmMxOWZkZWY4XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg"
+},
+{
+  "_id": {
+    "$oid": "66a80379a5aad36c22a20c93"
+  },
+  "titulo": "Trolls Band Together",
+  "genero": "Animación",
+  "duracion": 90,
+  "sinopsis": "Cuando el hermano perdido de Branch es secuestrado, Poppy y Branch se embarcan en una emocionante y desgarradora misión para reunir a la familia Troll y rescatar a su hermano.",
+  "estado": "proximamente",
+  "fecha": {
+    "$date": "2024-12-14T00:00:00.000Z"
+  },
+  "poster": "m.media-amazon.com/images/M/MV5BNTQ2YTg0MmYtZTMxNy00Zjg4LTk0MjUtZmJkYTQ0ZTg3MDA5XkEyXkFqcGc@._V1_.jpg"
+}]
